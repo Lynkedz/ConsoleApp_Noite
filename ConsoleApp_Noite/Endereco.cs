@@ -73,6 +73,28 @@ namespace ConsoleApp_Noite
         {
             return Estado;
         }
+
+        public string EnderecoCompleto()
+        {
+            return $"{Rua} +  + {Numero} + Bairro : + {Bairro} + Cidade: + {Cidade} + Cep:  + {Cep} + Estado + {Estado}";
+        }
+        public Endereco BuscaPorCep(string cep)
+        {
+            return new Endereco("", "", "", cep, "", "");
+        }
+        public string EstadoPorCidade(string estado)
+        {
+            if(estado == "XX")
+            {
+
+            }
+            return estado;
+        }
+        public void InserirNoBanco(Endereco endereco)
+        {
+            /*db.ENDERECO.ADD(endereco)
+            db.savechanges();*/
+        }
     }
 
 }
