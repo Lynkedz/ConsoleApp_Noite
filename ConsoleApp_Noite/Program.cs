@@ -28,7 +28,7 @@ gol.temMotor = true;
 gol.numeroPortas = 4;
 gol.fabricante = "";
 gol.cintoSeguranca = true;
-gol.arCondicionado = true;
+gol.arCondicionado = true;  
 gol.marcaRadio = "";
 
 
