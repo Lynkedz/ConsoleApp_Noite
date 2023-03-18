@@ -12,5 +12,10 @@ namespace ConsoleApp_Noite.Heranca
         public bool arCondicionado;
         public string marcaRadio;
         public string fabricante;
+
+        public string ExibirMarca()
+        {
+            return $"Marca: {fabricante}";
+        }
     }
 }
