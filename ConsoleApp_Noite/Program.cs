@@ -106,4 +106,8 @@ listaVeiculo.Add(mountain);
 foreach (var veiculo in listaVeiculo)
     Console.WriteLine($"{veiculo.ExibirDados()}");
 
-
+for(int i = 0; i <= 560; i++)
+{
+    Produto p = new Produto(i ,10.0M, "Produto");
+    Console.WriteLine($"Produto nº:{p.getId()} {p.getValor()} {p.getDescricao()}");
+}
