@@ -26,7 +26,7 @@ namespace ConsoleApp_Noite
         }
         public void setId(int id)
         {
-           Id = id;
+            Id = id;
         }
         public void setNome(string nome)
         {
@@ -46,11 +46,15 @@ namespace ConsoleApp_Noite
         }
         public string getTelefone()
         {
-           return Telefone;
+            return Telefone;
         }
         public Endereco GetEndereco()
         {
             return Endereco;
+        }
+        public string ExibirInformacao()
+        { 
+            return $"ID{Id}\tNome:{Nome}\tTelefone:{Telefone}\tEndereço:{Endereco}\n";
         }
     }
 }
